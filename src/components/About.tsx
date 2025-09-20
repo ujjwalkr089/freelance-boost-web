@@ -39,7 +39,7 @@ const About = () => {
             </h2>
             
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              Based in the heart of Bengaluru's business district, Apex Consulting combines 
+              Based in the heart of Bengaluru's business district, Freelance Consulting combines 
               deep local market knowledge with global best practices to drive transformational 
               change for ambitious organizations.
             </p>

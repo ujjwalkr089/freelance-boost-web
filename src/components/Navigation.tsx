@@ -30,7 +30,7 @@ const Navigation = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <h1 className="text-2xl font-bold gradient-text">
-              Apex Consulting
+              Freelance Consulting
             </h1>
           </div>
 
@@ -46,7 +46,7 @@ const Navigation = () => {
                   {item.label}
                 </a>
               ))}
-              <Button variant="default" className="bg-accent hover:bg-accent-hover">
+              <Button variant="default" className="bg-accent hover:bg-accent/90 hover-lift shadow-lg px-6 py-2 font-semibold transition-all duration-300">
                 Get Started
               </Button>
             </div>
@@ -80,7 +80,7 @@ const Navigation = () => {
                 </a>
               ))}
               <div className="px-3 py-2">
-                <Button variant="default" className="w-full bg-accent hover:bg-accent-hover">
+                <Button variant="default" className="w-full bg-accent hover:bg-accent/90 hover-lift shadow-lg font-semibold transition-all duration-300">
                   Get Started
                 </Button>
               </div>

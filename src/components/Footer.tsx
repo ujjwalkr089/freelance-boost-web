@@ -28,7 +28,7 @@ const Footer = () => {
           {/* Company Info */}
           <div className="lg:col-span-1">
             <h3 className="text-2xl font-bold gradient-text mb-4">
-              Apex Consulting
+              Freelance Consulting
             </h3>
             <p className="text-primary-foreground/80 mb-6 leading-relaxed">
               Transforming businesses across Bengaluru and beyond through 
@@ -105,7 +105,7 @@ const Footer = () => {
                   href="tel:+918045678900"
                   className="text-primary-foreground/80 hover:text-accent transition-colors duration-300"
                 >
-                  +91 80 4567 8900
+                  +91 80 4567 XXXX
                 </a>
               </div>
               <div className="flex items-center space-x-3">
@@ -124,7 +124,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-primary-foreground/20 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-primary-foreground/60 text-sm">
-            © 2024 Apex Consulting. All rights reserved.
+            © 2025 Freelance Consulting. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <a href="#" className="text-primary-foreground/60 hover:text-accent text-sm transition-colors duration-300">
