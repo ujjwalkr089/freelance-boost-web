@@ -27,11 +27,13 @@ const Navigation = () => {
     }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          {/* Logo */}
-          <div className="flex-shrink-0">
-            <h1 className="text-2xl font-bold gradient-text">
-              Freelance Consulting
-            </h1>
+          {/* Header Section */}
+          <div className="header-section flex-shrink-0">
+            <div className="logo-container">
+              <h1 className="text-2xl font-bold gradient-text">
+                Freelance Consulting
+              </h1>
+            </div>
           </div>
 
           {/* Desktop Navigation */}
