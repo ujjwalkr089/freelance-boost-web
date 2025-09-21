@@ -46,7 +46,10 @@ const Navigation = () => {
                   {item.label}
                 </a>
               ))}
-              <Button variant="default" className="bg-accent hover:bg-accent/90 hover-lift shadow-lg px-6 py-2 font-semibold transition-all duration-300">
+              <Button 
+                variant="default" 
+                className="bg-gradient-to-r from-accent to-accent-light hover:from-accent-hover hover:to-accent text-white border-0 hover-lift shadow-lg hover:shadow-xl px-8 py-2.5 font-semibold text-sm rounded-lg transition-all duration-300 transform hover:scale-105"
+              >
                 Get Started
               </Button>
             </div>
@@ -80,7 +83,10 @@ const Navigation = () => {
                 </a>
               ))}
               <div className="px-3 py-2">
-                <Button variant="default" className="w-full bg-accent hover:bg-accent/90 hover-lift shadow-lg font-semibold transition-all duration-300">
+                <Button 
+                  variant="default" 
+                  className="w-full bg-gradient-to-r from-accent to-accent-light hover:from-accent-hover hover:to-accent text-white border-0 hover-lift shadow-lg hover:shadow-xl font-semibold text-sm rounded-lg transition-all duration-300 transform hover:scale-105"
+                >
                   Get Started
                 </Button>
               </div>
